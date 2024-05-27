@@ -42,7 +42,7 @@ $ python MPPI_policy.py
 
 If you find this work useful, please cite it as follows:
 
-```code
+```bash
 @inproceedings{moder2024,
     title={Navigating the {H}uman {M}aze: {R}eal-{T}ime {R}obot {P}athfinding with {G}enerative {I}mitation {L}earning},
     author={Moder, Martin and Adhisaputra, Stephen and Pauli, Josef},
@@ -54,11 +54,11 @@ If you find this work useful, please cite it as follows:
 
 
 @inproceedings{moder2023model,
-    title={Model-based Imitation Learning for Real-time Robot Navigation in Crowds},
-    author={Moder, Martin and {\"O}zgan, Fatih and Pauli, Josef},
-    booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
-    pages={513--519},
-    year={2023},
-    organization={IEEE}
+  title={Model-based Imitation Learning for Real-time Robot Navigation in Crowds},
+  author={Moder, Martin and {\"O}zgan, Fatih and Pauli, Josef},
+  booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={513--519},
+  year={2023},
+  organization={IEEE}
 }
 ```
