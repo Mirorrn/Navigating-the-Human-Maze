@@ -6,13 +6,13 @@ import matplotlib.pyplot as plt
 from gym import spaces
 from torch.utils.data import DataLoader
 
-from data.trajectories import TrajectoryDataset, Collate
+from human_maze_gym.trajectories import TrajectoryDataset, Collate
 import time
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 import d3rlpy
 plt.rc('figure', figsize=(10, 10))
 from tqdm import tqdm
-from data.utils import *
+from human_maze_gym.utils import *
 
 
 

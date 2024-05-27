@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from data.utils import dynamic_window, actionXYtoROT
+from human_maze_gym.utils import dynamic_window, actionXYtoROT
 from model.utils import Hist_Encoder, Decoder_TF
 import numpy as np
 class Decoder_TF(nn.Module):

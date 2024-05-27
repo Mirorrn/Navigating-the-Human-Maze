@@ -9,7 +9,7 @@ from torch.utils.data import Dataset
 
 logger = logging.getLogger(__name__)
 
-from data.augmenter import Transformer
+from human_maze_gym.augmenter import Transformer
 
 class Collate():
     def __init__(self,augment, data_name, obs_len, pred_len, episode_length):

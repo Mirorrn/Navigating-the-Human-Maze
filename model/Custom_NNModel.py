@@ -3,7 +3,7 @@ import torch
 import d3rlpy
 from torch import nn
 from model.utils import Pooling_net, Hist_Encoder
-from data.utils import prepare_states, cart2pol, pol2cart
+from human_maze_gym.utils import prepare_states, cart2pol, pol2cart
 import matplotlib.pyplot as plt
 import numpy as np
 

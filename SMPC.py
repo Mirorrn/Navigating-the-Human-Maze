@@ -6,7 +6,7 @@ import os
 from model.NAR_with_Goal import TrajectoryGeneratorAR_goal
 from model.NIAR_with_Goal import TrajectoryGeneratorGoalIAR
 from model.NIAR import TrajectoryGenerator
-from data.utils import batched_Robot_coll_smoothed_loss, cart2pol, pol2cart
+from human_maze_gym.utils import batched_Robot_coll_smoothed_loss, cart2pol, pol2cart
 
 class SMPC(nn.Module):
     def __init__(self):

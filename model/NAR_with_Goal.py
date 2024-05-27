@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import numpy as np
 from model.utils import Pooling_net, Hist_Encoder
 
-from data.utils import dynamic_window, actionXYtoROT, GaußNLL
+from human_maze_gym.utils import dynamic_window, actionXYtoROT, GaußNLL
 
 class TrajectoryGeneratorAR_goal(nn.Module):
     def __init__(self, num_agent, robot_params_dict, dt, collision_distance=0.2, obs_len=8,

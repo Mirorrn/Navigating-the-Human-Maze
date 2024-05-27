@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from data.utils import dynamic_window, actionXYtoROT, pol2cart
+from human_maze_gym.utils import dynamic_window, actionXYtoROT, pol2cart
 from model.utils import Hist_Encoder, Decoder_TF
 
 

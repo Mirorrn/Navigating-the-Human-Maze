@@ -12,8 +12,8 @@ from d3rlpy.models.q_functions import QRQFunctionFactory
 
 #Custom Modules
 from model.Custom_NNModel import CustomEncoderFactory
-from data.social_nav_env import SocialNavEnv, evaluate
-from data.utils import CustomTransitionPicker
+from human_maze_gym.social_nav_env import SocialNavEnv, evaluate
+from human_maze_gym.utils import CustomTransitionPicker
 
 
 

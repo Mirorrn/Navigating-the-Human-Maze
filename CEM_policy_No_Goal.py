@@ -5,10 +5,10 @@ import os
 
 from model.NAR import TrajectoryGeneratorAR
 from model.NIAR import TrajectoryGenerator
-from data.social_nav_env import SocialNavEnv, evaluate
+from human_maze_gym.social_nav_env import SocialNavEnv, evaluate
 
 torch.autograd.set_detect_anomaly(True)
-from data.utils import prepare_states, batched_Robot_coll_smoothed_loss, cart2pol, pol2cart, actionXYtoROT,\
+from human_maze_gym.utils import prepare_states, batched_Robot_coll_smoothed_loss, cart2pol, pol2cart, actionXYtoROT,\
     batched_covariance, calc_cost_map_cost
 from torch.distributions.multivariate_normal import MultivariateNormal
 

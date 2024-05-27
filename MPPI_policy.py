@@ -1,8 +1,8 @@
 import torch
 import numpy as np
-from data.social_nav_env import SocialNavEnv, evaluate
+from human_maze_gym.social_nav_env import SocialNavEnv, evaluate
 from SMPC import SMPC
-from data.utils import prepare_states
+from human_maze_gym.utils import prepare_states
 
 def _ensure_non_zero(reward, beta, factor):
     return torch.exp(-factor * (reward - beta))
